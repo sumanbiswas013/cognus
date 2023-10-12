@@ -2,9 +2,6 @@
     <head>
         <title>Employee Data</title>
         <link href="Assets/css/bootstrap.min.css" rel="stylesheet" >
-        <script src="Assets/js/jquery-3.7.1.min.js"></script>
-    <script src="Assets/js/bootstrap.min.js" ></script>
-    <script src="Assets/js/custom.js" ></script>
     </head>
     <body>
         <div class="container">
@@ -13,12 +10,12 @@
                     <table class="table table-striped">
                         <thead>
                             <tr>
-                            <th scope="col">#</th>
-                            <th scope="col">First Name</th>
-                            <th scope="col">Last Name</th>
-                            <th scope="col">Email Address</th>
-                            <th scope="col">Designation</th>
-                            <th scope="col">Action</th>
+                                <th scope="col">#</th>
+                                <th scope="col">First Name</th>
+                                <th scope="col">Last Name</th>
+                                <th scope="col">Email Address</th>
+                                <th scope="col">Designation</th>
+                                <th scope="col">Action</th>
                             </tr>
                         </thead>
                         <tbody id="emp_data"></tbody>
@@ -63,6 +60,8 @@
 
         </div>
     </body>
-    
+    <script src="Assets/js/jquery-3.7.1.min.js"></script>
+    <script src="Assets/js/bootstrap.min.js" ></script>
+    <script src="Assets/js/custom.js" ></script>
 </html>
 
